@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContourSearch", "ContourSearch\ContourSearch.csproj", "{43F48381-8D64-421B-9C2E-04C9DCC3A1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{16F32D7B-517E-4D49-B6D2-843E9D442F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{A152C0A8-0F4C-4B77-96A7-AADB97019857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F48381-8D64-421B-9C2E-04C9DCC3A1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F48381-8D64-421B-9C2E-04C9DCC3A1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F48381-8D64-421B-9C2E-04C9DCC3A1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F48381-8D64-421B-9C2E-04C9DCC3A1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F32D7B-517E-4D49-B6D2-843E9D442F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F32D7B-517E-4D49-B6D2-843E9D442F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F32D7B-517E-4D49-B6D2-843E9D442F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F32D7B-517E-4D49-B6D2-843E9D442F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A152C0A8-0F4C-4B77-96A7-AADB97019857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A152C0A8-0F4C-4B77-96A7-AADB97019857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A152C0A8-0F4C-4B77-96A7-AADB97019857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A152C0A8-0F4C-4B77-96A7-AADB97019857}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD0A2CAB-C16D-46C2-8CD2-C565E2F22C70}
+	EndGlobalSection
+EndGlobal

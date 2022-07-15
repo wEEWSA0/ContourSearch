@@ -15,6 +15,8 @@ namespace ContourSearch
 {
     public partial class Form1 : Form
     {
+        private bool _isHideSourcePicture = true;
+
         public Form1()
         {
             InitializeComponent();
@@ -33,7 +35,15 @@ namespace ContourSearch
 
                 using (var ms = new MemoryStream(data.Buffer))
                 {
-                    SourcePictureBox.Image = new Bitmap(ms);
+                    if (!_isHideSourcePicture)
+                    {
+                        SourcePictureBox.Image = new Bitmap(ms);
+                    }
+                    else
+                    {
+                        SourcePictureBox.Image = null;
+                    }
+
                     detector = new ContourDetector(new Bitmap(ms));
                 }
                 
@@ -60,6 +70,11 @@ namespace ContourSearch
         private void labelFon_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void SourcePictureBox_Click(object sender, EventArgs e)
+        {
+            _isHideSourcePicture = !_isHideSourcePicture;
         }
     }
 }

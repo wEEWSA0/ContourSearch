@@ -46,6 +46,7 @@
             this.SourcePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.SourcePictureBox.TabIndex = 1;
             this.SourcePictureBox.TabStop = false;
+            this.SourcePictureBox.Click += new System.EventHandler(this.SourcePictureBox_Click);
             // 
             // OnlyContour
             // 
